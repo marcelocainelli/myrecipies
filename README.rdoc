@@ -1,3 +1,28 @@
+testing specs for recipes:
+nome : string 
+summary : text 
+description : text 
+
+- nome deve ser apresentado
+- O nome deve ter entre 5 a menos que 100 caracteres 
+- o sumario deve existir 
+- O summario deve ter entre 10 a menos que 150 caracteres 
+- o description deve existir 
+- O description deve ter entre 10 a menos que 500 caracteres 
+-chef_id deve ser apresentado 
+
+testing specs for chefs:
+chefname: string 
+email: string
+
+- chefname dever ser apresentado 
+- chefname deve ter entre 3 e 40 caracteres 
+- email deve ser apresentado 
+- email deve ser unique 
+- email deve ser valido 
+
+
+
 == README
 
 This README would normally document whatever steps are necessary to get the
